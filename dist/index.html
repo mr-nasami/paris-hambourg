@@ -1,0 +1,296 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris-Hambourg</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+
+    <div id="mobile-menu" data-sticky-container > <!-- mobile menu -->
+
+      <div class="title-bar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;" style="width:100%" data-hide-for="medium">
+        <button class="menu-icon secondary" type="button" data-toggle="offCanvas"></button>
+        <div class="title-bar-title">Paris-Hambourg</div>
+        <div class="top-bar-right">
+          <a href="tel:+33179732000"><img src="assets/img/phone-icon.png" alt="Contact Call"></a>
+        </div>
+      </div>
+
+    </div> <!-- mobile menu end -->
+
+    <!-- <div class="top-bar">
+      <div class="top-bar-title">Paris-Hambourg</div>
+      <div>
+        <div class="top-bar-right"></div>
+      </div>
+    </div> -->
+
+
+
+
+
+    <div class="off-canvas-wrapper"> <!-- Off Canvas wrapper -->
+      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Menu -->
+        <ul class="vertical menu">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">CGV</a></li>
+        </ul>
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Your page content lives here -->
+        <header class="expanded row">
+          <div class="canvasImg">
+            <img data-interchange="[assets/img/car.jpg, small] [assets/img/car-xsmall.jpg, xmedium] [assets/img/car-medium.jpg, medium] [assets/img/covoiturage-large.jpg, ipad] [assets/img/covoiturage-large.jpg, large]" alt="take the easiest way">
+            <h1 class="banner-text"><span>Prenez le trajet le plus simple.</span></h1>
+          </div>
+        </header>
+        
+        <section id="services">
+        
+        
+          <div class="row large-unstack section-wrapper">
+        
+              <div class="columns service-wrapper">
+        
+                <div class="service-icon">
+                  <img src="assets/img/seat.png" alt="Comfortables seats">
+                </div>
+                <div class="service-details">
+                  <h4>Comfort</h4>
+                  <p>Nos véhicules sont équipés de sièges comfortables pour un trajet plus agréable.</p>
+                </div>
+        
+              </div>
+        
+              <div class="columns service-wrapper">
+        
+                <div class="service-icon">
+                  <img src="assets/img/device.png" alt="simple and fast">
+                </div>
+                <div class="service-details">
+                  <h4>Simple et rapide</h4>
+                  <p>Réservez directement sur notre site votre trajet en quelques clics.</p>
+                </div>
+        
+              </div>
+        
+              <div class="columns">
+        
+                <div class="service-icon">
+                  <img src="assets/img/thumbUp.png" alt="great services">
+                </div>
+                <div class="service-details">
+                  <h4>Service</h4>
+                  <p>Une petite faim ou juste envie d’une pause, nos chauffeurs sont à l’écoute de vos besoins.</p>
+                </div>
+        
+              </div>
+        
+        
+            </div>
+        
+        
+        </section>
+        
+        <div id="cityImg" class="expanded row">
+          <div class="canvasImg">
+            <img data-interchange="[assets/img/hambourg-small.jpg, small] [assets/img/hambourg-xsmall.jpg, xmedium] [assets/img/hambourg-medium.jpg, medium] [assets/img/hambourg-large.jpg, ipad] [assets/img/hambourg-xxlarge.jpg, large] [assets/img/hambourg-xxlarge.jpg, xxlarge]" alt="Hamburg">
+          </div>
+        </div>
+        
+        <section class="trajet">
+        
+          <div class="row large-unstack medium-collapse section-wrapper">
+        
+            <div class="small-12 align-self-middle columns">
+              <h4 class="banner-text">Départ: Paris</br>tous les samedis à 7h.</h4>
+              <img data-interchange="[assets/img/Paris-hambourg_trajet-small.jpg, small] [assets/img/Paris-hambourg_trajet-small.jpg, xmedium] [assets/img/Paris-hambourg_trajet-medium.jpg, large]" alt="Hambourg">
+            </div>
+        
+            <div class="small-12 columns">
+        
+              <div id="reservation" class="row"> <!-- Callout wrap -->
+                <div class="columns">
+                  <div class="callout">
+        
+                    <div id="destination-city" class="row align-center">
+                      <div class="small-10 medium-6 column">
+                        <h2 class="text-center"><small>Destination:</small> Hambourg</h2>
+                      </div>
+                    </div>
+        
+                    <div id=formulaire class="row align-center">
+                      <div class="small-10 medium-6 column">
+                        <form class="" action="" method="post">
+                          <label>Choisissez une date?
+                            <input type="text" id="datepicker">
+                            <!-- <select>
+                              <option value="1">samedi 08 janvier</option>
+                              <option value="2">samedi 15 janvier</option>
+                              <option value="3">samedi 22 janvier</option>
+                              <option value="4">samedi 29 janvier</option>
+                            </select> -->
+                            </input>
+                          </label>
+                        </form>
+                        <form class="" action="index.html" method="post">
+                          <label>Combien de places?
+                            <select>
+                              <option value="1">1 personne</option>
+                              <option value="2">2 personnes</option>
+                              <option value="3">3 personnes</option>
+                              <option value="4">4 personnes</option>
+                              <option value="4">5 personnes</option>
+                              <option value="4">6 personnes</option>
+                              <option value="4">7 personnes</option>
+                            </select>
+                          </label>
+                        </form>
+                        <button type="button" class="hollow alert button expanded ">Réserver</button>
+                      </div>
+                    </div>
+        
+                  </div>
+        
+                </div>
+              </div><!-- Callout wrap end -->
+        
+            </div>
+          </div>
+        
+        </section>
+        
+        <div class="expanded row">
+          <div class="canvasImg">
+            <img data-interchange="[assets/img/louvre-small.jpg, small] [assets/img/louvre-xsmall.jpg, xmedium] [assets/img/louvre-medium.jpg, medium] [assets/img/louvre-large.jpg, ipad] [assets/img/louvre-xxlarge.jpg, large] [assets/img/louvre-xxlarge.jpg, xxlarge]" alt="Paris le Louvre">
+          </div>
+        </div>
+        
+        <section class="trajet">
+        
+          <div class="row large-unstack medium-collapse section-wrapper">
+        
+            <div class="small-12 align-self-middle columns">
+              <h4 class="banner-text">Départ: Hambourg</br>tous les dimanches à 7h.</h4>
+              <img data-interchange="[assets/img/Paris-hambourg_trajet-small.jpg, small] [assets/img/Paris-hambourg_trajet-small.jpg, xmedium] [assets/img/Paris-hambourg_trajet-medium.jpg, large]" alt="City map">
+            </div>
+        
+            <div class="small-12 columns">
+        
+              <div id="reservation" class="row"> <!-- Callout wrap -->
+                <div class="columns">
+                  <div class="callout">
+        
+                    <div id="destination-city" class="row align-center">
+                      <div class="small-10 medium-6 column">
+                        <h2 class="text-center"><small>Destination:</small> Paris</h2>
+                      </div>
+                    </div>
+        
+                    <div id=formulaire class="row align-center">
+                      <div class="small-10 medium-6 column">
+                        <form class="" action="index.html" method="post">
+                          <label>Choisissez une date?
+                            <input type="text" id="datepicker2">
+                            <!-- <select>
+                              <option value="1">dimanche 08 janvier</option>
+                              <option value="2">dimanche 15 janvier</option>
+                              <option value="3">dimanche 22 janvier</option>
+                              <option value="4">dimanche 29 janvier</option>
+                            </select> -->
+                            </input>
+                          </label>
+                        </form>
+                        <form class="" action="index.html" method="post">
+                          <label>Combien de places?
+                            <select>
+                              <option value="1">1 personne</option>
+                              <option value="2">2 personnes</option>
+                              <option value="3">3 personnes</option>
+                              <option value="4">4 personnes</option>
+                              <option value="5">5 personnes</option>
+                              <option value="6">6 personnes</option>
+                              <option value="7">7 personnes</option>
+                            </select>
+                          </label>
+                        </form>
+                        <button type="button" class="hollow alert button expanded ">Réserver</button>
+                      </div>
+                    </div>
+        
+                  </div>
+        
+                </div>
+              </div><!-- Callout wrap end -->
+        
+            </div>
+          </div>
+        
+        </section>
+        
+        <section id="about">
+        
+          <div class="row large-unstack section-wrapper">
+        
+            <div class="small-12 columns">
+              <div class="canvasImg">
+                <img data-interchange="[assets/img/aboutUs-small.jpg, small] [assets/img/aboutUs-xsmall.jpg, xmedium] [assets/img/aboutUs.jpg, ipad] [assets/img/aboutUs.jpg, large]" alt="take the easiest way">
+                <!-- <h4 class="banner-text"><span>À propos de nous</span></h4> -->
+              </div>
+            </div>
+            <div id="about-details" class="small-12 align-self-middle columns">
+              <h3 class="text-center">Safar Drivers</h3>
+              <p>Nous sommes une société de professionnels du transport de personne basée en region parisienne.</p>
+              <p>Paris-hambourg est un service qui a pour but de faciliter le trajet entre ces deux grande villes dont les liaisons ne sont pas toujours simple et direct.</p>
+            </div>
+        
+          </div>
+        
+        </section>
+        
+        <footer>
+          <div class="row section-wrapper">
+            <div class="small-12 columns">
+              <div id="footer-title">
+                <h4 class="text-center">Paris-Hambourg</h4>
+              </div>
+            </div>
+            <div class="small-12 columns">
+              <h4 class="text-center">Safar Drivers</h4>
+              <p>2 rue Auguste Renoir 94800 Villejuif</p>
+            </div>
+          </div>
+        </footer>
+        
+      </div>
+    </div> <!-- Off Canvas wrapper end -->
+
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script>
+
+      $( "#datepicker" ).datepicker({
+        inline: false,
+        showOtherMonths: true,
+        beforeShowDay: $.datepicker.satOnly,
+      });
+
+      $( "#datepicker2" ).datepicker({
+        inline: false,
+        showOtherMonths: true,
+        beforeShowDay: $.datepicker.sunOnly,
+      });
+
+    </script>
+  </body>
+</html>

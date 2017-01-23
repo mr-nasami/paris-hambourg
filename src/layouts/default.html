@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris-Hambourg</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+
+    <div id="mobile-menu" data-sticky-container > <!-- mobile menu -->
+
+      <div class="title-bar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;" style="width:100%" data-hide-for="medium">
+        <button class="menu-icon secondary" type="button" data-toggle="offCanvas"></button>
+        <div class="title-bar-title">Paris-Hambourg</div>
+        <div class="top-bar-right">
+          <a href="tel:+33179732000"><img src="{{root}}assets/img/phone-icon.png" alt="Contact Call"></a>
+        </div>
+      </div>
+
+    </div> <!-- mobile menu end -->
+
+    <!-- <div class="top-bar">
+      <div class="top-bar-title">Paris-Hambourg</div>
+      <div>
+        <div class="top-bar-right"></div>
+      </div>
+    </div> -->
+
+
+
+
+
+    <div class="off-canvas-wrapper"> <!-- Off Canvas wrapper -->
+      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Menu -->
+        <ul class="vertical menu">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">CGV</a></li>
+        </ul>
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Your page content lives here -->
+        {{>body}}
+      </div>
+    </div> <!-- Off Canvas wrapper end -->
+
+
+    <script src="{{root}}assets/js/app.js"></script>
+    <script src="{{root}}assets/js/jquery-ui.js"></script>
+    <script>
+
+      $( "#datepicker" ).datepicker({
+        inline: false,
+        showOtherMonths: true,
+        beforeShowDay: $.datepicker.satOnly,
+      });
+
+      $( "#datepicker2" ).datepicker({
+        inline: false,
+        showOtherMonths: true,
+        beforeShowDay: $.datepicker.sunOnly,
+      });
+
+    </script>
+  </body>
+</html>
